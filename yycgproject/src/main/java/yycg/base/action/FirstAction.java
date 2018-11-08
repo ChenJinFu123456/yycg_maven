@@ -20,7 +20,7 @@ public class FirstAction {
 	@Autowired
 	private UserService userService;
 	
-	//首页 
+	//首页   123
 	@RequestMapping("/first")
 	public String first(Model model)throws Exception{
 		
