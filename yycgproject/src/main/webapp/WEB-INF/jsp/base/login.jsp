@@ -137,26 +137,30 @@ $(document).ready(function(){
 					<TBODY>
 						<TR>
 							<TD>用户名：</TD>
-							<TD colSpan="2"><input type="text" id="userid"
-								name="userid" style="WIDTH: 130px" /></TD>
+							<TD colSpan="2">
+								<input type="text" id="userid" name="userid" style="WIDTH: 130px" />
+							</TD>
 						</TR>
 						<TR>
 							<TD>密 码：</TD>
-							<TD><input type="password" id="password" name="pwd" style="WIDTH: 130px" />
+							<TD>
+								<input type="password" id="password" name="pwd" style="WIDTH: 130px" />
 							</TD>
 						</TR>
 						<TR>
 							<TD>验证码：</TD>
-							<TD><input id="randomcode" name="validateCode" size="8" /> <img
-								id="randomcode_img" src="${baseurl}validatecode.jsp" alt=""
-								width="56" height="20" align='absMiddle' /> <a
-								href=javascript:randomcode_refresh()>刷新</a></TD>
+							<TD>
+								<input id="randomcode" name="validateCode" size="8" /> 
+								<img id="randomcode_img" src="${baseurl}validatecode.jsp" alt="" width="56" height="20" align='absMiddle' /> 
+								<a href=javascript:randomcode_refresh()>刷新</a>
+							</TD>
 						</TR>
 
 						<TR>
-							<TD colSpan="2" align="center"><input type="button"
-								class="btnalink" onclick="loginsubmit()" value="登&nbsp;&nbsp;录" />
-								<input type="reset" class="btnalink" value="重&nbsp;&nbsp;置" /></TD>
+							<TD colSpan="2" align="center">
+								<input type="button" class="btnalink" onclick="loginsubmit()" value="登&nbsp;&nbsp;录" />
+								<input type="reset" class="btnalink" value="重&nbsp;&nbsp;置" />
+							</TD>
 						</TR>
 					</TBODY>
 				</TABLE>

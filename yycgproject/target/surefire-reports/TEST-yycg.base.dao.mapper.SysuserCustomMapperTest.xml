@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.376" errors="1" skipped="0" tests="1" name="yycg.base.dao.mapper.SysuserCustomMapperTest">
+<testsuite failures="1" time="0.005" errors="0" skipped="0" tests="1" name="yycg.base.dao.mapper.SysuserCustomMapperTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\app\Java\64_bit\jdk1.6.0_43\jre\bin"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgparent"/>
+    <property name="user.dir" value="D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject"/>
     <property name="java.runtime.version" value="1.6.0_43-b01"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="D:\app\Java\64_bit\jdk1.6.0_43\jre\lib\endorsed"/>
@@ -25,9 +25,9 @@
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8"/>
-    <property name="classworlds.conf" value="D:\app\Maven\apache-maven-3.2.1\bin\m2.conf"/>
+    <property name="classworlds.conf" value="D:\MyWorkspace\eclipse\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1447125898815975100.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="D:\app\Java\64_bit\jdk1.6.0_43\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\product\11.2.0\client_2\bin;D:\app\product\11.2.0\client_1;D:\app\product\11.2.0\dbhome_1\bin;D:\app\Python27\;D:\app\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;D:\app\Java\64_bit\jdk1.6.0_43\bin;D:\app\Maven\apache-maven-3.2.1\bin;D:\app\Git\Git\cmd;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\app\Tomcat\apache-tomcat-7.0.90\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="D:\app\Java\64_bit\jdk1.6.0_43\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/app/Java/64_bit/jre1.8.0_111/bin/server;D:/app/Java/64_bit/jre1.8.0_111/bin;D:/app/Java/64_bit/jre1.8.0_111/lib/amd64;D:\app\product\11.2.0\client_2\bin;D:\app\product\11.2.0\client_1;D:\app\product\11.2.0\dbhome_1\bin;D:\app\Python27\;D:\app\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;D:\app\Java\64_bit\jdk1.8.0_111\bin;D:\app\Maven\apache-maven-3.3.3\bin;D:\app\Git\Git\cmd;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\app\Tomcat\apache-tomcat-7.0.52x32\bin;D:\app\redis-64.3.0.503;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;D:\app\eclipse\eclipse-jee-kepler-SR2-Java8-win32-x86_64;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="50.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -35,7 +35,7 @@
     <property name="user.home" value="C:\Users\Administrator"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="file.encoding" value="GBK"/>
+    <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="1.6"/>
     <property name="user.name" value="Administrator"/>
     <property name="java.class.path" value="D:\app\Maven\apache-maven-3.2.1\boot\plexus-classworlds-2.5.1.jar"/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="D:\app\Java\64_bit\jdk1.6.0_43\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -B -s D:\MyWorkspace\repository\settings.xml install"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -55,28 +55,17 @@
     <property name="maven.home" value="D:\app\Maven\apache-maven-3.2.1"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="maven.bootclasspath" value="D:\app\Maven\apache-maven-3.2.1\boot\plexus-classworlds-2.5.1.jar"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.376" classname="yycg.base.dao.mapper.SysuserCustomMapperTest" name="testFindSysuserById">
-    <error message="IOException parsing XML document from class path resource [spring/applicationContext-dao.xml]; nested exception is java.io.FileNotFoundException: class path resource [spring/applicationContext-dao.xml] cannot be opened because it does not exist" type="org.springframework.beans.factory.BeanDefinitionStoreException">org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [spring/applicationContext-dao.xml]; nested exception is java.io.FileNotFoundException: class path resource [spring/applicationContext-dao.xml] cannot be opened because it does not exist
-	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
-	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:243)
-	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:127)
-	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:93)
-	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:131)
-	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:530)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:444)
-	at org.springframework.context.support.ClassPathXmlApplicationContext.&lt;init&gt;(ClassPathXmlApplicationContext.java:139)
-	at org.springframework.context.support.ClassPathXmlApplicationContext.&lt;init&gt;(ClassPathXmlApplicationContext.java:93)
-	at yycg.base.dao.mapper.SysuserCustomMapperTest.setUp(SysuserCustomMapperTest.java:16)
-	at junit.framework.TestCase.runBare(TestCase.java:125)
+  <testcase time="0.005" classname="junit.framework.TestSuite$1" name="warning">
+    <failure message="No tests found in yycg.base.dao.mapper.SysuserCustomMapperTest" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: No tests found in yycg.base.dao.mapper.SysuserCustomMapperTest
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.TestSuite$1.runTest(TestSuite.java:263)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
 	at junit.framework.TestResult$1.protect(TestResult.java:106)
 	at junit.framework.TestResult.runProtected(TestResult.java:124)
 	at junit.framework.TestResult.run(TestResult.java:109)
@@ -99,41 +88,6 @@
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: java.io.FileNotFoundException: class path resource [spring/applicationContext-dao.xml] cannot be opened because it does not exist
-	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:157)
-	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
-	... 36 more
-Caused by: java.io.FileNotFoundException: class path resource [spring/applicationContext-dao.xml] cannot be opened because it does not exist
-	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:157)
-	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
-	... 36 more
-</error>
-    <system-out>DEBUG [main] - Initializing new StandardEnvironment
-DEBUG [main] - Adding [systemProperties] PropertySource with lowest search precedence
-DEBUG [main] - Adding [systemEnvironment] PropertySource with lowest search precedence
-DEBUG [main] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
- INFO [main] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@481adc30: startup date [Sun Sep 23 13:47:50 CST 2018]; root of context hierarchy
-DEBUG [main] - Initializing new StandardEnvironment
-DEBUG [main] - Adding [systemProperties] PropertySource with lowest search precedence
-DEBUG [main] - Adding [systemEnvironment] PropertySource with lowest search precedence
-DEBUG [main] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
-DEBUG [main] - Initializing new StandardEnvironment
-DEBUG [main] - Adding [systemProperties] PropertySource with lowest search precedence
-DEBUG [main] - Adding [systemEnvironment] PropertySource with lowest search precedence
-DEBUG [main] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
- INFO [main] - Loading XML bean definitions from class path resource [spring/applicationContext.xml]
-DEBUG [main] - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
-DEBUG [main] - Loading schema mappings from [META-INF/spring.schemas]
-DEBUG [main] - Loaded schema mappings: {http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.directwebremoting.org/schema/spring-dwr-2.0.xsd=org/directwebremoting/spring/spring-dwr-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
-DEBUG [main] - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.1.xsd
-DEBUG [main] - Found XML schema [http://www.springframework.org/schema/context/spring-context-3.1.xsd] in classpath: org/springframework/context/config/spring-context-3.1.xsd
-DEBUG [main] - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.1.xsd
-DEBUG [main] - Found XML schema [http://www.springframework.org/schema/tx/spring-tx-3.1.xsd] in classpath: org/springframework/transaction/config/spring-tx-3.1.xsd
-DEBUG [main] - Found XML schema [http://www.springframework.org/schema/aop/spring-aop-3.1.xsd] in classpath: org/springframework/aop/config/spring-aop-3.1.xsd
-DEBUG [main] - Loading bean definitions
-DEBUG [main] - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.directwebremoting.org/schema/spring-dwr=org.directwebremoting.spring.DwrAnnotationNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
-DEBUG [main] - Loaded 6 bean definitions from location pattern [spring/applicationContext.xml]
- INFO [main] - Loading XML bean definitions from class path resource [spring/applicationContext-dao.xml]
-</system-out>
+</failure>
   </testcase>
 </testsuite>

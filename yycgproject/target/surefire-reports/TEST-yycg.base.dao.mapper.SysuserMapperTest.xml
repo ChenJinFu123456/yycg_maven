@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="3.215" errors="3" skipped="0" tests="6" name="yycg.base.dao.mapper.SysuserMapperTest">
+<testsuite failures="0" time="10.5" errors="3" skipped="0" tests="7" name="yycg.base.dao.mapper.SysuserMapperTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\app\Java\64_bit\jdk1.6.0_43\jre\bin"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgparent"/>
+    <property name="user.dir" value="D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject"/>
     <property name="java.runtime.version" value="1.6.0_43-b01"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="D:\app\Java\64_bit\jdk1.6.0_43\jre\lib\endorsed"/>
@@ -25,9 +25,9 @@
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8"/>
-    <property name="classworlds.conf" value="D:\app\Maven\apache-maven-3.2.1\bin\m2.conf"/>
+    <property name="classworlds.conf" value="D:\MyWorkspace\eclipse\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1447125898815975100.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="D:\app\Java\64_bit\jdk1.6.0_43\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\product\11.2.0\client_2\bin;D:\app\product\11.2.0\client_1;D:\app\product\11.2.0\dbhome_1\bin;D:\app\Python27\;D:\app\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;D:\app\Java\64_bit\jdk1.6.0_43\bin;D:\app\Maven\apache-maven-3.2.1\bin;D:\app\Git\Git\cmd;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\app\Tomcat\apache-tomcat-7.0.90\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="D:\app\Java\64_bit\jdk1.6.0_43\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/app/Java/64_bit/jre1.8.0_111/bin/server;D:/app/Java/64_bit/jre1.8.0_111/bin;D:/app/Java/64_bit/jre1.8.0_111/lib/amd64;D:\app\product\11.2.0\client_2\bin;D:\app\product\11.2.0\client_1;D:\app\product\11.2.0\dbhome_1\bin;D:\app\Python27\;D:\app\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;D:\app\Java\64_bit\jdk1.8.0_111\bin;D:\app\Maven\apache-maven-3.3.3\bin;D:\app\Git\Git\cmd;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\app\Tomcat\apache-tomcat-7.0.52x32\bin;D:\app\redis-64.3.0.503;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;D:\app\eclipse\eclipse-jee-kepler-SR2-Java8-win32-x86_64;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="50.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -35,7 +35,7 @@
     <property name="user.home" value="C:\Users\Administrator"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="file.encoding" value="GBK"/>
+    <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="1.6"/>
     <property name="user.name" value="Administrator"/>
     <property name="java.class.path" value="D:\app\Maven\apache-maven-3.2.1\boot\plexus-classworlds-2.5.1.jar"/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="D:\app\Java\64_bit\jdk1.6.0_43\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -B -s D:\MyWorkspace\repository\settings.xml install"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -55,13 +55,14 @@
     <property name="maven.home" value="D:\app\Maven\apache-maven-3.2.1"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="maven.bootclasspath" value="D:\app\Maven\apache-maven-3.2.1\boot\plexus-classworlds-2.5.1.jar"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="1.116" classname="yycg.base.dao.mapper.SysuserMapperTest" name="testDeleteByPrimaryKey"/>
-  <testcase time="0.776" classname="yycg.base.dao.mapper.SysuserMapperTest" name="testInsert">
+  <testcase time="3.437" classname="yycg.base.dao.mapper.SysuserMapperTest" name="testDeleteByPrimaryKey"/>
+  <testcase time="1.577" classname="yycg.base.dao.mapper.SysuserMapperTest" name="testInsert">
     <error message="
 ### Error updating database.  Cause: java.sql.SQLException: ORA-01400: 无法将 NULL 插入 (&quot;YYCG&quot;.&quot;SYSUSER&quot;.&quot;USERID&quot;)
 
@@ -91,7 +92,7 @@
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:46)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:43)
 	at com.sun.proxy.$Proxy6.insert(Unknown Source)
-	at yycg.base.dao.mapper.SysuserMapperTest.testInsert(SysuserMapperTest.java:44)
+	at yycg.base.dao.mapper.SysuserMapperTest.testInsert(SysuserMapperTest.java:45)
 Caused by: java.sql.SQLException: ORA-01400: 无法将 NULL 插入 (&quot;YYCG&quot;.&quot;SYSUSER&quot;.&quot;USERID&quot;)
 
 	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
@@ -128,7 +129,7 @@ Caused by: java.sql.SQLException: ORA-01400: 无法将 NULL 插入 (&quot;YYCG&q
 DEBUG [main] - Adding [systemProperties] PropertySource with lowest search precedence
 DEBUG [main] - Adding [systemEnvironment] PropertySource with lowest search precedence
 DEBUG [main] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
- INFO [main] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@520e7d53: startup date [Sun Sep 23 13:47:52 CST 2018]; root of context hierarchy
+ INFO [main] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@69107c05: startup date [Mon Dec 10 20:15:07 CST 2018]; root of context hierarchy
 DEBUG [main] - Initializing new StandardEnvironment
 DEBUG [main] - Adding [systemProperties] PropertySource with lowest search precedence
 DEBUG [main] - Adding [systemEnvironment] PropertySource with lowest search precedence
@@ -155,7 +156,7 @@ DEBUG [main] - Found XML schema [http://www.springframework.org/schema/beans/spr
 DEBUG [main] - Loading bean definitions
 DEBUG [main] - Neither XML &apos;id&apos; nor &apos;name&apos; specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
 DEBUG [main] - Loaded 2 bean definitions from location pattern [spring/applicationContext-base-dao.xml]
-DEBUG [main] - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@520e7d53: org.springframework.beans.factory.support.DefaultListableBeanFactory@68fc8e75: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0]; root of factory hierarchy
+DEBUG [main] - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@69107c05: org.springframework.beans.factory.support.DefaultListableBeanFactory@605b28c9: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0]; root of factory hierarchy
 DEBUG [main] - Creating shared instance of singleton bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
 DEBUG [main] - Creating instance of bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
 DEBUG [main] - Eagerly caching bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos; to allow for resolving potential circular references
@@ -165,17 +166,93 @@ DEBUG [main] - Initializing new StandardEnvironment
 DEBUG [main] - Adding [systemProperties] PropertySource with lowest search precedence
 DEBUG [main] - Adding [systemEnvironment] PropertySource with lowest search precedence
 DEBUG [main] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
-DEBUG [main] - Looking for matching resources in directory tree [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper]
-DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/test-classes/yycg/base/dao/mapper/**/*.class]
-DEBUG [main] - Looking for matching resources in directory tree [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper]
-DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/base/dao/mapper/**/*.class]
-DEBUG [main] - Resolved location pattern [classpath*:yycg/base/dao/mapper/**/*.class] to resources [file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper\SysuserCustomMapperTest.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper\SysuserMapperTest.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserCustomMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserMapper.class]]
+DEBUG [main] - Looking for matching resources in directory tree [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/test-classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/test-classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/test-classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/test-classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Looking for matching resources in directory tree [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\action] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\action\converters] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\filter] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\pojo] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\pojo\po] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\pojo\vo] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\process] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\process\context] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\process\exception] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\process\result] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\service] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\service\impl] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\action] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\pojo] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\pojo\po] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\pojo\vo] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\service] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\service\impl] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Looking for matching resources in jar file [file:/D:/MyWorkspace/repository/yycg/yycgutil/0.0.1-SNAPSHOT/yycgutil-0.0.1-SNAPSHOT.jar]
+DEBUG [main] - Resolved location pattern [classpath*:yycg/**/dao/mapper/**/*.class] to resources [file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper\SysuserCustomMapperTest.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper\SysuserMapperTest.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\BasicinfoMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\BssSysAreaMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\DictinfoMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\DicttypeMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\ModuleMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\OperateMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\RoleMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\RolemoduleMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\RoleoperateMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserMapperCustom.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UsergysareaMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UsergysMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UserjdMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UseryyMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\GysypmlControlMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\GysypmlMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\GysypmlMapperCustom.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YpxxMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YpxxMapperCustom.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YybusinessMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YybusinessMapperCustom.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdMapperCustom.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdmxMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdrkMapper.class]]
 DEBUG [main] - Ignored because not a concrete top-level class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper\SysuserCustomMapperTest.class]
 DEBUG [main] - Ignored because not a concrete top-level class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper\SysuserMapperTest.class]
-DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserCustomMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\BasicinfoMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\BssSysAreaMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\DictinfoMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\DicttypeMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\ModuleMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\OperateMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\RoleMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\RolemoduleMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\RoleoperateMapper.class]
 DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserMapper.class]
-DEBUG [main] - Creating MapperFactoryBean with name &apos;sysuserCustomMapper&apos; and &apos;yycg.base.dao.mapper.SysuserCustomMapper&apos; mapperInterface
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserMapperCustom.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UsergysareaMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UsergysMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UserjdMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UseryyMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\GysypmlControlMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\GysypmlMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\GysypmlMapperCustom.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YpxxMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YpxxMapperCustom.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YybusinessMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YybusinessMapperCustom.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdMapperCustom.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdmxMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdrkMapper.class]
+DEBUG [main] - Creating MapperFactoryBean with name &apos;basicinfoMapper&apos; and &apos;yycg.base.dao.mapper.BasicinfoMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;bssSysAreaMapper&apos; and &apos;yycg.base.dao.mapper.BssSysAreaMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;dictinfoMapper&apos; and &apos;yycg.base.dao.mapper.DictinfoMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;dicttypeMapper&apos; and &apos;yycg.base.dao.mapper.DicttypeMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;moduleMapper&apos; and &apos;yycg.base.dao.mapper.ModuleMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;operateMapper&apos; and &apos;yycg.base.dao.mapper.OperateMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;roleMapper&apos; and &apos;yycg.base.dao.mapper.RoleMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;rolemoduleMapper&apos; and &apos;yycg.base.dao.mapper.RolemoduleMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;roleoperateMapper&apos; and &apos;yycg.base.dao.mapper.RoleoperateMapper&apos; mapperInterface
 DEBUG [main] - Creating MapperFactoryBean with name &apos;sysuserMapper&apos; and &apos;yycg.base.dao.mapper.SysuserMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;sysuserMapperCustom&apos; and &apos;yycg.base.dao.mapper.SysuserMapperCustom&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;usergysareaMapper&apos; and &apos;yycg.base.dao.mapper.UsergysareaMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;usergysMapper&apos; and &apos;yycg.base.dao.mapper.UsergysMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;userjdMapper&apos; and &apos;yycg.base.dao.mapper.UserjdMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;useryyMapper&apos; and &apos;yycg.base.dao.mapper.UseryyMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;gysypmlControlMapper&apos; and &apos;yycg.business.dao.mapper.GysypmlControlMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;gysypmlMapper&apos; and &apos;yycg.business.dao.mapper.GysypmlMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;gysypmlMapperCustom&apos; and &apos;yycg.business.dao.mapper.GysypmlMapperCustom&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;ypxxMapper&apos; and &apos;yycg.business.dao.mapper.YpxxMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;ypxxMapperCustom&apos; and &apos;yycg.business.dao.mapper.YpxxMapperCustom&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;yybusinessMapper&apos; and &apos;yycg.business.dao.mapper.YybusinessMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;yybusinessMapperCustom&apos; and &apos;yycg.business.dao.mapper.YybusinessMapperCustom&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;yycgdMapper&apos; and &apos;yycg.business.dao.mapper.YycgdMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;yycgdMapperCustom&apos; and &apos;yycg.business.dao.mapper.YycgdMapperCustom&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;yycgdmxMapper&apos; and &apos;yycg.business.dao.mapper.YycgdmxMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;yycgdrkMapper&apos; and &apos;yycg.business.dao.mapper.YycgdrkMapper&apos; mapperInterface
 DEBUG [main] - Creating shared instance of singleton bean &apos;org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0&apos;
 DEBUG [main] - Creating instance of bean &apos;org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0&apos;
 DEBUG [main] - Eagerly caching bean &apos;org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0&apos; to allow for resolving potential circular references
@@ -239,9 +316,9 @@ DEBUG [main] - Creating shared instance of singleton bean &apos;org.springframew
 DEBUG [main] - Creating instance of bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
 DEBUG [main] - Eagerly caching bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos; to allow for resolving potential circular references
 DEBUG [main] - Finished creating instance of bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
-DEBUG [main] - Unable to locate MessageSource with name &apos;messageSource&apos;: using default [org.springframework.context.support.DelegatingMessageSource@566798eb]
-DEBUG [main] - Unable to locate ApplicationEventMulticaster with name &apos;applicationEventMulticaster&apos;: using default [org.springframework.context.event.SimpleApplicationEventMulticaster@2b68989e]
- INFO [main] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68fc8e75: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,sysuserCustomMapper,sysuserMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy
+DEBUG [main] - Unable to locate MessageSource with name &apos;messageSource&apos;: using default [org.springframework.context.support.DelegatingMessageSource@51e2a069]
+DEBUG [main] - Unable to locate ApplicationEventMulticaster with name &apos;applicationEventMulticaster&apos;: using default [org.springframework.context.event.SimpleApplicationEventMulticaster@7591777e]
+ INFO [main] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@605b28c9: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,basicinfoMapper,bssSysAreaMapper,dictinfoMapper,dicttypeMapper,moduleMapper,operateMapper,roleMapper,rolemoduleMapper,roleoperateMapper,sysuserMapper,sysuserMapperCustom,usergysareaMapper,usergysMapper,userjdMapper,useryyMapper,gysypmlControlMapper,gysypmlMapper,gysypmlMapperCustom,ypxxMapper,ypxxMapperCustom,yybusinessMapper,yybusinessMapperCustom,yycgdMapper,yycgdMapperCustom,yycgdmxMapper,yycgdrkMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0&apos;
 DEBUG [main] - Creating shared instance of singleton bean &apos;dataSource&apos;
 DEBUG [main] - Creating instance of bean &apos;dataSource&apos;
@@ -315,17 +392,89 @@ DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframe
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Finished creating instance of bean &apos;sqlSessionFactory&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
-DEBUG [main] - Creating shared instance of singleton bean &apos;sysuserCustomMapper&apos;
-DEBUG [main] - Creating instance of bean &apos;sysuserCustomMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;basicinfoMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;basicinfoMapper&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
-DEBUG [main] - Eagerly caching bean &apos;sysuserCustomMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Eagerly caching bean &apos;basicinfoMapper&apos; to allow for resolving potential circular references
 DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
-DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;sysuserCustomMapper&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;basicinfoMapper&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
-DEBUG [main] - Finished creating instance of bean &apos;sysuserCustomMapper&apos;
+DEBUG [main] - Finished creating instance of bean &apos;basicinfoMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;bssSysAreaMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;bssSysAreaMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;bssSysAreaMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;bssSysAreaMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;bssSysAreaMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;dictinfoMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;dictinfoMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;dictinfoMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;dictinfoMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;dictinfoMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;dicttypeMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;dicttypeMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;dicttypeMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;dicttypeMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;dicttypeMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;moduleMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;moduleMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;moduleMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;moduleMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;moduleMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;operateMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;operateMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;operateMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;operateMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;operateMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;roleMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;roleMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;roleMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;roleMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;roleMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;rolemoduleMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;rolemoduleMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;rolemoduleMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;rolemoduleMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;rolemoduleMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;roleoperateMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;roleoperateMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;roleoperateMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;roleoperateMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;roleoperateMapper&apos;
 DEBUG [main] - Creating shared instance of singleton bean &apos;sysuserMapper&apos;
 DEBUG [main] - Creating instance of bean &apos;sysuserMapper&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
@@ -335,24 +484,168 @@ DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;sysuserMapp
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Finished creating instance of bean &apos;sysuserMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;sysuserMapperCustom&apos;
+DEBUG [main] - Creating instance of bean &apos;sysuserMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;sysuserMapperCustom&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;sysuserMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;sysuserMapperCustom&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;usergysareaMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;usergysareaMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;usergysareaMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;usergysareaMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;usergysareaMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;usergysMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;usergysMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;usergysMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;usergysMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;usergysMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;userjdMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;userjdMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;userjdMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;userjdMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;userjdMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;useryyMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;useryyMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;useryyMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;useryyMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;useryyMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;gysypmlControlMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;gysypmlControlMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;gysypmlControlMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;gysypmlControlMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;gysypmlControlMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;gysypmlMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;gysypmlMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;gysypmlMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;gysypmlMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;gysypmlMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;gysypmlMapperCustom&apos;
+DEBUG [main] - Creating instance of bean &apos;gysypmlMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;gysypmlMapperCustom&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;gysypmlMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;gysypmlMapperCustom&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;ypxxMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;ypxxMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;ypxxMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;ypxxMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;ypxxMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;ypxxMapperCustom&apos;
+DEBUG [main] - Creating instance of bean &apos;ypxxMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;ypxxMapperCustom&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;ypxxMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;ypxxMapperCustom&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;yybusinessMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;yybusinessMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;yybusinessMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;yybusinessMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;yybusinessMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;yybusinessMapperCustom&apos;
+DEBUG [main] - Creating instance of bean &apos;yybusinessMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;yybusinessMapperCustom&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;yybusinessMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;yybusinessMapperCustom&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;yycgdMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;yycgdMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;yycgdMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;yycgdMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;yycgdMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;yycgdMapperCustom&apos;
+DEBUG [main] - Creating instance of bean &apos;yycgdMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;yycgdMapperCustom&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;yycgdMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;yycgdMapperCustom&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;yycgdmxMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;yycgdmxMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;yycgdmxMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;yycgdmxMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;yycgdmxMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;yycgdrkMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;yycgdrkMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;yycgdrkMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;yycgdrkMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;yycgdrkMapper&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
-DEBUG [main] - Unable to locate LifecycleProcessor with name &apos;lifecycleProcessor&apos;: using default [org.springframework.context.support.DefaultLifecycleProcessor@1fdbb27d]
+DEBUG [main] - Unable to locate LifecycleProcessor with name &apos;lifecycleProcessor&apos;: using default [org.springframework.context.support.DefaultLifecycleProcessor@715c2843]
 DEBUG [main] - Returning cached instance of singleton bean &apos;lifecycleProcessor&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;sysuserMapper&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Creating a new SqlSession
-DEBUG [main] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@451710be] was not registered for synchronization because synchronization is not active
+DEBUG [main] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29422384] was not registered for synchronization because synchronization is not active
 DEBUG [main] - Fetching JDBC Connection from DataSource
 DEBUG [main] - JDBC Connection [jdbc:oracle:thin:@127.0.0.1:1521:oracle, UserName=YYCG, Oracle JDBC driver] will not be managed by Spring
 DEBUG [main] - ooo Using Connection [jdbc:oracle:thin:@127.0.0.1:1521:oracle, UserName=YYCG, Oracle JDBC driver]
 DEBUG [main] - ==&gt;  Preparing: insert into SYSUSER (ID, USERID, USERNAME, GROUPID, PWD, CONTACT, ADDR, EMAIL, USERSTATE, REMARK, CREATETIME, SEX, PHONE, MOVEPHONE, FAX, LASTUPDATE, VCHAR1, VCHAR2, VCHAR3, VCHAR4, VCHAR5, SYSID) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
-DEBUG [main] - ==&gt; Parameters: 3131492e40d94b5b88b055e8e020fd04(String), (String), (String), null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
-DEBUG [main] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@451710be]
+DEBUG [main] - ==&gt; Parameters: 4e0270097c6641a6a46b896b6203ce78(String), (String), (String), null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+DEBUG [main] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29422384]
 DEBUG [main] - Returning JDBC Connection to DataSource
 DEBUG [main] - Initializing new StandardEnvironment
 DEBUG [main] - Adding [systemProperties] PropertySource with lowest search precedence
@@ -607,34 +900,34 @@ DEBUG [main] - Adding [systemEnvironment] PropertySource with lowest search prec
 DEBUG [main] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
 DEBUG [main] - Finished creating instance of bean &apos;Sybase&apos;
  INFO [main] - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
-DEBUG [main] - Looking up default SQLErrorCodes for DataSource [org.apache.commons.dbcp.BasicDataSource@5a9bc984]
+DEBUG [main] - Looking up default SQLErrorCodes for DataSource [org.apache.commons.dbcp.BasicDataSource@3b5ad1da]
 DEBUG [main] - Fetching JDBC Connection from DataSource
 DEBUG [main] - Returning JDBC Connection to DataSource
-DEBUG [main] - Database product name cached for DataSource [org.apache.commons.dbcp.BasicDataSource@5a9bc984]: name is &apos;Oracle&apos;
+DEBUG [main] - Database product name cached for DataSource [org.apache.commons.dbcp.BasicDataSource@3b5ad1da]: name is &apos;Oracle&apos;
 DEBUG [main] - SQL error codes for &apos;Oracle&apos; found
-DEBUG [main] - Translating SQLException with SQL state &apos;23000&apos;, error code &apos;1400&apos;, message [ORA-01400: 无法将 NULL 插入 (&quot;YYCG&quot;.&quot;SYSUSER&quot;.&quot;USERID&quot;)
+DEBUG [main] - Translating SQLException with SQL state &apos;23000&apos;, error code &apos;1400&apos;, message [ORA-01400: �޷��� NULL ���� (&quot;YYCG&quot;.&quot;SYSUSER&quot;.&quot;USERID&quot;)
 ]; SQL was [] for task [
-### Error updating database.  Cause: java.sql.SQLException: ORA-01400: 无法将 NULL 插入 (&quot;YYCG&quot;.&quot;SYSUSER&quot;.&quot;USERID&quot;)
+### Error updating database.  Cause: java.sql.SQLException: ORA-01400: �޷��� NULL ���� (&quot;YYCG&quot;.&quot;SYSUSER&quot;.&quot;USERID&quot;)
 
 ### The error may involve yycg.base.dao.mapper.SysuserMapper.insert-Inline
 ### The error occurred while setting parameters
 ### SQL: insert into SYSUSER (ID, USERID, USERNAME,        GROUPID, PWD, CONTACT,        ADDR, EMAIL, USERSTATE,        REMARK, CREATETIME, SEX,        PHONE, MOVEPHONE, FAX,        LASTUPDATE, VCHAR1, VCHAR2,        VCHAR3, VCHAR4, VCHAR5,        SYSID)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?)
-### Cause: java.sql.SQLException: ORA-01400: 无法将 NULL 插入 (&quot;YYCG&quot;.&quot;SYSUSER&quot;.&quot;USERID&quot;)
+### Cause: java.sql.SQLException: ORA-01400: �޷��� NULL ���� (&quot;YYCG&quot;.&quot;SYSUSER&quot;.&quot;USERID&quot;)
 
 ]
 </system-out>
   </testcase>
-  <testcase time="0.331" classname="yycg.base.dao.mapper.SysuserMapperTest" name="testSelectByExample">
+  <testcase time="1.55" classname="yycg.base.dao.mapper.SysuserMapperTest" name="testSelectByExample">
     <error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
 	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
 	at java.util.ArrayList.get(ArrayList.java:322)
-	at yycg.base.dao.mapper.SysuserMapperTest.testSelectByExample(SysuserMapperTest.java:57)
+	at yycg.base.dao.mapper.SysuserMapperTest.testSelectByExample(SysuserMapperTest.java:58)
 </error>
     <system-out>DEBUG [main] - Initializing new StandardEnvironment
 DEBUG [main] - Adding [systemProperties] PropertySource with lowest search precedence
 DEBUG [main] - Adding [systemEnvironment] PropertySource with lowest search precedence
 DEBUG [main] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
- INFO [main] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@69107c05: startup date [Sun Sep 23 13:47:52 CST 2018]; root of context hierarchy
+ INFO [main] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@31ca1a68: startup date [Mon Dec 10 20:15:09 CST 2018]; root of context hierarchy
 DEBUG [main] - Initializing new StandardEnvironment
 DEBUG [main] - Adding [systemProperties] PropertySource with lowest search precedence
 DEBUG [main] - Adding [systemEnvironment] PropertySource with lowest search precedence
@@ -661,7 +954,7 @@ DEBUG [main] - Found XML schema [http://www.springframework.org/schema/beans/spr
 DEBUG [main] - Loading bean definitions
 DEBUG [main] - Neither XML &apos;id&apos; nor &apos;name&apos; specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
 DEBUG [main] - Loaded 2 bean definitions from location pattern [spring/applicationContext-base-dao.xml]
-DEBUG [main] - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@69107c05: org.springframework.beans.factory.support.DefaultListableBeanFactory@540523be: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0]; root of factory hierarchy
+DEBUG [main] - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@31ca1a68: org.springframework.beans.factory.support.DefaultListableBeanFactory@2bbd9de3: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0]; root of factory hierarchy
 DEBUG [main] - Creating shared instance of singleton bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
 DEBUG [main] - Creating instance of bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
 DEBUG [main] - Eagerly caching bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos; to allow for resolving potential circular references
@@ -671,17 +964,93 @@ DEBUG [main] - Initializing new StandardEnvironment
 DEBUG [main] - Adding [systemProperties] PropertySource with lowest search precedence
 DEBUG [main] - Adding [systemEnvironment] PropertySource with lowest search precedence
 DEBUG [main] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
-DEBUG [main] - Looking for matching resources in directory tree [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper]
-DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/test-classes/yycg/base/dao/mapper/**/*.class]
-DEBUG [main] - Looking for matching resources in directory tree [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper]
-DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/base/dao/mapper/**/*.class]
-DEBUG [main] - Resolved location pattern [classpath*:yycg/base/dao/mapper/**/*.class] to resources [file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper\SysuserCustomMapperTest.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper\SysuserMapperTest.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserCustomMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserMapper.class]]
+DEBUG [main] - Looking for matching resources in directory tree [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/test-classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/test-classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/test-classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/test-classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Looking for matching resources in directory tree [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\action] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\action\converters] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\filter] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\pojo] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\pojo\po] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\pojo\vo] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\process] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\process\context] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\process\exception] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\process\result] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\service] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\service\impl] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\action] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\pojo] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\pojo\po] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\pojo\vo] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\service] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\service\impl] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Looking for matching resources in jar file [file:/D:/MyWorkspace/repository/yycg/yycgutil/0.0.1-SNAPSHOT/yycgutil-0.0.1-SNAPSHOT.jar]
+DEBUG [main] - Resolved location pattern [classpath*:yycg/**/dao/mapper/**/*.class] to resources [file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper\SysuserCustomMapperTest.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper\SysuserMapperTest.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\BasicinfoMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\BssSysAreaMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\DictinfoMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\DicttypeMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\ModuleMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\OperateMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\RoleMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\RolemoduleMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\RoleoperateMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserMapperCustom.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UsergysareaMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UsergysMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UserjdMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UseryyMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\GysypmlControlMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\GysypmlMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\GysypmlMapperCustom.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YpxxMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YpxxMapperCustom.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YybusinessMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YybusinessMapperCustom.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdMapperCustom.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdmxMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdrkMapper.class]]
 DEBUG [main] - Ignored because not a concrete top-level class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper\SysuserCustomMapperTest.class]
 DEBUG [main] - Ignored because not a concrete top-level class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper\SysuserMapperTest.class]
-DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserCustomMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\BasicinfoMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\BssSysAreaMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\DictinfoMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\DicttypeMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\ModuleMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\OperateMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\RoleMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\RolemoduleMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\RoleoperateMapper.class]
 DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserMapper.class]
-DEBUG [main] - Creating MapperFactoryBean with name &apos;sysuserCustomMapper&apos; and &apos;yycg.base.dao.mapper.SysuserCustomMapper&apos; mapperInterface
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserMapperCustom.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UsergysareaMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UsergysMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UserjdMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UseryyMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\GysypmlControlMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\GysypmlMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\GysypmlMapperCustom.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YpxxMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YpxxMapperCustom.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YybusinessMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YybusinessMapperCustom.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdMapperCustom.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdmxMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdrkMapper.class]
+DEBUG [main] - Creating MapperFactoryBean with name &apos;basicinfoMapper&apos; and &apos;yycg.base.dao.mapper.BasicinfoMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;bssSysAreaMapper&apos; and &apos;yycg.base.dao.mapper.BssSysAreaMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;dictinfoMapper&apos; and &apos;yycg.base.dao.mapper.DictinfoMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;dicttypeMapper&apos; and &apos;yycg.base.dao.mapper.DicttypeMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;moduleMapper&apos; and &apos;yycg.base.dao.mapper.ModuleMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;operateMapper&apos; and &apos;yycg.base.dao.mapper.OperateMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;roleMapper&apos; and &apos;yycg.base.dao.mapper.RoleMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;rolemoduleMapper&apos; and &apos;yycg.base.dao.mapper.RolemoduleMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;roleoperateMapper&apos; and &apos;yycg.base.dao.mapper.RoleoperateMapper&apos; mapperInterface
 DEBUG [main] - Creating MapperFactoryBean with name &apos;sysuserMapper&apos; and &apos;yycg.base.dao.mapper.SysuserMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;sysuserMapperCustom&apos; and &apos;yycg.base.dao.mapper.SysuserMapperCustom&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;usergysareaMapper&apos; and &apos;yycg.base.dao.mapper.UsergysareaMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;usergysMapper&apos; and &apos;yycg.base.dao.mapper.UsergysMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;userjdMapper&apos; and &apos;yycg.base.dao.mapper.UserjdMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;useryyMapper&apos; and &apos;yycg.base.dao.mapper.UseryyMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;gysypmlControlMapper&apos; and &apos;yycg.business.dao.mapper.GysypmlControlMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;gysypmlMapper&apos; and &apos;yycg.business.dao.mapper.GysypmlMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;gysypmlMapperCustom&apos; and &apos;yycg.business.dao.mapper.GysypmlMapperCustom&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;ypxxMapper&apos; and &apos;yycg.business.dao.mapper.YpxxMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;ypxxMapperCustom&apos; and &apos;yycg.business.dao.mapper.YpxxMapperCustom&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;yybusinessMapper&apos; and &apos;yycg.business.dao.mapper.YybusinessMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;yybusinessMapperCustom&apos; and &apos;yycg.business.dao.mapper.YybusinessMapperCustom&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;yycgdMapper&apos; and &apos;yycg.business.dao.mapper.YycgdMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;yycgdMapperCustom&apos; and &apos;yycg.business.dao.mapper.YycgdMapperCustom&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;yycgdmxMapper&apos; and &apos;yycg.business.dao.mapper.YycgdmxMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;yycgdrkMapper&apos; and &apos;yycg.business.dao.mapper.YycgdrkMapper&apos; mapperInterface
 DEBUG [main] - Creating shared instance of singleton bean &apos;org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0&apos;
 DEBUG [main] - Creating instance of bean &apos;org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0&apos;
 DEBUG [main] - Eagerly caching bean &apos;org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0&apos; to allow for resolving potential circular references
@@ -745,9 +1114,9 @@ DEBUG [main] - Creating shared instance of singleton bean &apos;org.springframew
 DEBUG [main] - Creating instance of bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
 DEBUG [main] - Eagerly caching bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos; to allow for resolving potential circular references
 DEBUG [main] - Finished creating instance of bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
-DEBUG [main] - Unable to locate MessageSource with name &apos;messageSource&apos;: using default [org.springframework.context.support.DelegatingMessageSource@ed0f59e]
-DEBUG [main] - Unable to locate ApplicationEventMulticaster with name &apos;applicationEventMulticaster&apos;: using default [org.springframework.context.event.SimpleApplicationEventMulticaster@38ad5fab]
- INFO [main] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@540523be: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,sysuserCustomMapper,sysuserMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy
+DEBUG [main] - Unable to locate MessageSource with name &apos;messageSource&apos;: using default [org.springframework.context.support.DelegatingMessageSource@54c9f997]
+DEBUG [main] - Unable to locate ApplicationEventMulticaster with name &apos;applicationEventMulticaster&apos;: using default [org.springframework.context.event.SimpleApplicationEventMulticaster@182153fe]
+ INFO [main] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2bbd9de3: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,basicinfoMapper,bssSysAreaMapper,dictinfoMapper,dicttypeMapper,moduleMapper,operateMapper,roleMapper,rolemoduleMapper,roleoperateMapper,sysuserMapper,sysuserMapperCustom,usergysareaMapper,usergysMapper,userjdMapper,useryyMapper,gysypmlControlMapper,gysypmlMapper,gysypmlMapperCustom,ypxxMapper,ypxxMapperCustom,yybusinessMapper,yybusinessMapperCustom,yycgdMapper,yycgdMapperCustom,yycgdmxMapper,yycgdrkMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0&apos;
 DEBUG [main] - Creating shared instance of singleton bean &apos;dataSource&apos;
 DEBUG [main] - Creating instance of bean &apos;dataSource&apos;
@@ -821,17 +1190,89 @@ DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframe
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Finished creating instance of bean &apos;sqlSessionFactory&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
-DEBUG [main] - Creating shared instance of singleton bean &apos;sysuserCustomMapper&apos;
-DEBUG [main] - Creating instance of bean &apos;sysuserCustomMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;basicinfoMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;basicinfoMapper&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
-DEBUG [main] - Eagerly caching bean &apos;sysuserCustomMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Eagerly caching bean &apos;basicinfoMapper&apos; to allow for resolving potential circular references
 DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
-DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;sysuserCustomMapper&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;basicinfoMapper&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
-DEBUG [main] - Finished creating instance of bean &apos;sysuserCustomMapper&apos;
+DEBUG [main] - Finished creating instance of bean &apos;basicinfoMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;bssSysAreaMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;bssSysAreaMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;bssSysAreaMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;bssSysAreaMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;bssSysAreaMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;dictinfoMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;dictinfoMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;dictinfoMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;dictinfoMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;dictinfoMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;dicttypeMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;dicttypeMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;dicttypeMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;dicttypeMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;dicttypeMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;moduleMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;moduleMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;moduleMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;moduleMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;moduleMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;operateMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;operateMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;operateMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;operateMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;operateMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;roleMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;roleMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;roleMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;roleMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;roleMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;rolemoduleMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;rolemoduleMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;rolemoduleMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;rolemoduleMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;rolemoduleMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;roleoperateMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;roleoperateMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;roleoperateMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;roleoperateMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;roleoperateMapper&apos;
 DEBUG [main] - Creating shared instance of singleton bean &apos;sysuserMapper&apos;
 DEBUG [main] - Creating instance of bean &apos;sysuserMapper&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
@@ -841,39 +1282,183 @@ DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;sysuserMapp
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Finished creating instance of bean &apos;sysuserMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;sysuserMapperCustom&apos;
+DEBUG [main] - Creating instance of bean &apos;sysuserMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;sysuserMapperCustom&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;sysuserMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;sysuserMapperCustom&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;usergysareaMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;usergysareaMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;usergysareaMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;usergysareaMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;usergysareaMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;usergysMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;usergysMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;usergysMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;usergysMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;usergysMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;userjdMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;userjdMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;userjdMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;userjdMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;userjdMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;useryyMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;useryyMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;useryyMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;useryyMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;useryyMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;gysypmlControlMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;gysypmlControlMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;gysypmlControlMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;gysypmlControlMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;gysypmlControlMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;gysypmlMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;gysypmlMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;gysypmlMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;gysypmlMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;gysypmlMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;gysypmlMapperCustom&apos;
+DEBUG [main] - Creating instance of bean &apos;gysypmlMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;gysypmlMapperCustom&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;gysypmlMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;gysypmlMapperCustom&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;ypxxMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;ypxxMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;ypxxMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;ypxxMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;ypxxMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;ypxxMapperCustom&apos;
+DEBUG [main] - Creating instance of bean &apos;ypxxMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;ypxxMapperCustom&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;ypxxMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;ypxxMapperCustom&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;yybusinessMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;yybusinessMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;yybusinessMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;yybusinessMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;yybusinessMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;yybusinessMapperCustom&apos;
+DEBUG [main] - Creating instance of bean &apos;yybusinessMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;yybusinessMapperCustom&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;yybusinessMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;yybusinessMapperCustom&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;yycgdMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;yycgdMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;yycgdMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;yycgdMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;yycgdMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;yycgdMapperCustom&apos;
+DEBUG [main] - Creating instance of bean &apos;yycgdMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;yycgdMapperCustom&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;yycgdMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;yycgdMapperCustom&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;yycgdmxMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;yycgdmxMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;yycgdmxMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;yycgdmxMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;yycgdmxMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;yycgdrkMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;yycgdrkMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;yycgdrkMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;yycgdrkMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;yycgdrkMapper&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
-DEBUG [main] - Unable to locate LifecycleProcessor with name &apos;lifecycleProcessor&apos;: using default [org.springframework.context.support.DefaultLifecycleProcessor@7297e3a5]
+DEBUG [main] - Unable to locate LifecycleProcessor with name &apos;lifecycleProcessor&apos;: using default [org.springframework.context.support.DefaultLifecycleProcessor@206cc2a4]
 DEBUG [main] - Returning cached instance of singleton bean &apos;lifecycleProcessor&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;sysuserMapper&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Creating a new SqlSession
-DEBUG [main] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75cefde4] was not registered for synchronization because synchronization is not active
+DEBUG [main] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fcac3fa] was not registered for synchronization because synchronization is not active
 DEBUG [main] - Fetching JDBC Connection from DataSource
 DEBUG [main] - JDBC Connection [jdbc:oracle:thin:@127.0.0.1:1521:oracle, UserName=YYCG, Oracle JDBC driver] will not be managed by Spring
 DEBUG [main] - ooo Using Connection [jdbc:oracle:thin:@127.0.0.1:1521:oracle, UserName=YYCG, Oracle JDBC driver]
 DEBUG [main] - ==&gt;  Preparing: select ID, USERID, USERNAME, GROUPID, PWD, CONTACT, ADDR, EMAIL, USERSTATE, REMARK, CREATETIME, SEX, PHONE, MOVEPHONE, FAX, LASTUPDATE, VCHAR1, VCHAR2, VCHAR3, VCHAR4, VCHAR5, SYSID from SYSUSER WHERE ( USERNAME = ? and GROUPID = ? ) 
 DEBUG [main] - ==&gt; Parameters: test009(String), 4(String)
 DEBUG [main] - &lt;==      Total: 0
-DEBUG [main] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75cefde4]
+DEBUG [main] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fcac3fa]
 DEBUG [main] - Returning JDBC Connection to DataSource
 </system-out>
   </testcase>
-  <testcase time="0.411" classname="yycg.base.dao.mapper.SysuserMapperTest" name="testSelectByPrimaryKey"/>
-  <testcase time="0.273" classname="yycg.base.dao.mapper.SysuserMapperTest" name="testUpdateByPrimaryKeySelective"/>
-  <testcase time="0.308" classname="yycg.base.dao.mapper.SysuserMapperTest" name="testUpdateByPrimaryKey">
+  <testcase time="1.021" classname="yycg.base.dao.mapper.SysuserMapperTest" name="testSelectByPrimaryKey"/>
+  <testcase time="1.001" classname="yycg.base.dao.mapper.SysuserMapperTest" name="testUpdateByPrimaryKeySelective"/>
+  <testcase time="1.186" classname="yycg.base.dao.mapper.SysuserMapperTest" name="testUpdateByPrimaryKey">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at yycg.base.dao.mapper.SysuserMapperTest.testUpdateByPrimaryKey(SysuserMapperTest.java:82)
+	at yycg.base.dao.mapper.SysuserMapperTest.testUpdateByPrimaryKey(SysuserMapperTest.java:83)
 </error>
     <system-out>DEBUG [main] - Initializing new StandardEnvironment
 DEBUG [main] - Adding [systemProperties] PropertySource with lowest search precedence
 DEBUG [main] - Adding [systemEnvironment] PropertySource with lowest search precedence
 DEBUG [main] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
- INFO [main] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@539c5048: startup date [Sun Sep 23 13:47:53 CST 2018]; root of context hierarchy
+ INFO [main] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4e842e74: startup date [Mon Dec 10 20:15:12 CST 2018]; root of context hierarchy
 DEBUG [main] - Initializing new StandardEnvironment
 DEBUG [main] - Adding [systemProperties] PropertySource with lowest search precedence
 DEBUG [main] - Adding [systemEnvironment] PropertySource with lowest search precedence
@@ -900,7 +1485,7 @@ DEBUG [main] - Found XML schema [http://www.springframework.org/schema/beans/spr
 DEBUG [main] - Loading bean definitions
 DEBUG [main] - Neither XML &apos;id&apos; nor &apos;name&apos; specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
 DEBUG [main] - Loaded 2 bean definitions from location pattern [spring/applicationContext-base-dao.xml]
-DEBUG [main] - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@539c5048: org.springframework.beans.factory.support.DefaultListableBeanFactory@60dc4c81: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0]; root of factory hierarchy
+DEBUG [main] - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@4e842e74: org.springframework.beans.factory.support.DefaultListableBeanFactory@8e2b07b: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0]; root of factory hierarchy
 DEBUG [main] - Creating shared instance of singleton bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
 DEBUG [main] - Creating instance of bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
 DEBUG [main] - Eagerly caching bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos; to allow for resolving potential circular references
@@ -910,17 +1495,93 @@ DEBUG [main] - Initializing new StandardEnvironment
 DEBUG [main] - Adding [systemProperties] PropertySource with lowest search precedence
 DEBUG [main] - Adding [systemEnvironment] PropertySource with lowest search precedence
 DEBUG [main] - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
-DEBUG [main] - Looking for matching resources in directory tree [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper]
-DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/test-classes/yycg/base/dao/mapper/**/*.class]
-DEBUG [main] - Looking for matching resources in directory tree [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper]
-DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/base/dao/mapper/**/*.class]
-DEBUG [main] - Resolved location pattern [classpath*:yycg/base/dao/mapper/**/*.class] to resources [file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper\SysuserCustomMapperTest.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper\SysuserMapperTest.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserCustomMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserMapper.class]]
+DEBUG [main] - Looking for matching resources in directory tree [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/test-classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/test-classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/test-classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/test-classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Looking for matching resources in directory tree [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\action] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\action\converters] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\filter] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\pojo] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\pojo\po] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\pojo\vo] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\process] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\process\context] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\process\exception] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\process\result] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\service] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\service\impl] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\action] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\pojo] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\pojo\po] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\pojo\vo] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\service] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Searching directory [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\service\impl] for files matching pattern [D:/MyWorkspace/eclipse/workspace/yycg-maven/yycgproject/target/classes/yycg/**/dao/mapper/**/*.class]
+DEBUG [main] - Looking for matching resources in jar file [file:/D:/MyWorkspace/repository/yycg/yycgutil/0.0.1-SNAPSHOT/yycgutil-0.0.1-SNAPSHOT.jar]
+DEBUG [main] - Resolved location pattern [classpath*:yycg/**/dao/mapper/**/*.class] to resources [file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper\SysuserCustomMapperTest.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper\SysuserMapperTest.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\BasicinfoMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\BssSysAreaMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\DictinfoMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\DicttypeMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\ModuleMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\OperateMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\RoleMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\RolemoduleMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\RoleoperateMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserMapperCustom.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UsergysareaMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UsergysMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UserjdMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UseryyMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\GysypmlControlMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\GysypmlMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\GysypmlMapperCustom.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YpxxMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YpxxMapperCustom.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YybusinessMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YybusinessMapperCustom.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdMapperCustom.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdmxMapper.class], file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdrkMapper.class]]
 DEBUG [main] - Ignored because not a concrete top-level class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper\SysuserCustomMapperTest.class]
 DEBUG [main] - Ignored because not a concrete top-level class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\test-classes\yycg\base\dao\mapper\SysuserMapperTest.class]
-DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserCustomMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\BasicinfoMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\BssSysAreaMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\DictinfoMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\DicttypeMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\ModuleMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\OperateMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\RoleMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\RolemoduleMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\RoleoperateMapper.class]
 DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserMapper.class]
-DEBUG [main] - Creating MapperFactoryBean with name &apos;sysuserCustomMapper&apos; and &apos;yycg.base.dao.mapper.SysuserCustomMapper&apos; mapperInterface
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\SysuserMapperCustom.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UsergysareaMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UsergysMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UserjdMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\base\dao\mapper\UseryyMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\GysypmlControlMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\GysypmlMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\GysypmlMapperCustom.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YpxxMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YpxxMapperCustom.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YybusinessMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YybusinessMapperCustom.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdMapperCustom.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdmxMapper.class]
+DEBUG [main] - Identified candidate component class: file [D:\MyWorkspace\eclipse\workspace\yycg-maven\yycgproject\target\classes\yycg\business\dao\mapper\YycgdrkMapper.class]
+DEBUG [main] - Creating MapperFactoryBean with name &apos;basicinfoMapper&apos; and &apos;yycg.base.dao.mapper.BasicinfoMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;bssSysAreaMapper&apos; and &apos;yycg.base.dao.mapper.BssSysAreaMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;dictinfoMapper&apos; and &apos;yycg.base.dao.mapper.DictinfoMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;dicttypeMapper&apos; and &apos;yycg.base.dao.mapper.DicttypeMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;moduleMapper&apos; and &apos;yycg.base.dao.mapper.ModuleMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;operateMapper&apos; and &apos;yycg.base.dao.mapper.OperateMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;roleMapper&apos; and &apos;yycg.base.dao.mapper.RoleMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;rolemoduleMapper&apos; and &apos;yycg.base.dao.mapper.RolemoduleMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;roleoperateMapper&apos; and &apos;yycg.base.dao.mapper.RoleoperateMapper&apos; mapperInterface
 DEBUG [main] - Creating MapperFactoryBean with name &apos;sysuserMapper&apos; and &apos;yycg.base.dao.mapper.SysuserMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;sysuserMapperCustom&apos; and &apos;yycg.base.dao.mapper.SysuserMapperCustom&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;usergysareaMapper&apos; and &apos;yycg.base.dao.mapper.UsergysareaMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;usergysMapper&apos; and &apos;yycg.base.dao.mapper.UsergysMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;userjdMapper&apos; and &apos;yycg.base.dao.mapper.UserjdMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;useryyMapper&apos; and &apos;yycg.base.dao.mapper.UseryyMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;gysypmlControlMapper&apos; and &apos;yycg.business.dao.mapper.GysypmlControlMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;gysypmlMapper&apos; and &apos;yycg.business.dao.mapper.GysypmlMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;gysypmlMapperCustom&apos; and &apos;yycg.business.dao.mapper.GysypmlMapperCustom&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;ypxxMapper&apos; and &apos;yycg.business.dao.mapper.YpxxMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;ypxxMapperCustom&apos; and &apos;yycg.business.dao.mapper.YpxxMapperCustom&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;yybusinessMapper&apos; and &apos;yycg.business.dao.mapper.YybusinessMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;yybusinessMapperCustom&apos; and &apos;yycg.business.dao.mapper.YybusinessMapperCustom&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;yycgdMapper&apos; and &apos;yycg.business.dao.mapper.YycgdMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;yycgdMapperCustom&apos; and &apos;yycg.business.dao.mapper.YycgdMapperCustom&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;yycgdmxMapper&apos; and &apos;yycg.business.dao.mapper.YycgdmxMapper&apos; mapperInterface
+DEBUG [main] - Creating MapperFactoryBean with name &apos;yycgdrkMapper&apos; and &apos;yycg.business.dao.mapper.YycgdrkMapper&apos; mapperInterface
 DEBUG [main] - Creating shared instance of singleton bean &apos;org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0&apos;
 DEBUG [main] - Creating instance of bean &apos;org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0&apos;
 DEBUG [main] - Eagerly caching bean &apos;org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0&apos; to allow for resolving potential circular references
@@ -984,9 +1645,9 @@ DEBUG [main] - Creating shared instance of singleton bean &apos;org.springframew
 DEBUG [main] - Creating instance of bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
 DEBUG [main] - Eagerly caching bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos; to allow for resolving potential circular references
 DEBUG [main] - Finished creating instance of bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
-DEBUG [main] - Unable to locate MessageSource with name &apos;messageSource&apos;: using default [org.springframework.context.support.DelegatingMessageSource@778abc7b]
-DEBUG [main] - Unable to locate ApplicationEventMulticaster with name &apos;applicationEventMulticaster&apos;: using default [org.springframework.context.event.SimpleApplicationEventMulticaster@355c6c8d]
- INFO [main] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@60dc4c81: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,sysuserCustomMapper,sysuserMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy
+DEBUG [main] - Unable to locate MessageSource with name &apos;messageSource&apos;: using default [org.springframework.context.support.DelegatingMessageSource@255e00b7]
+DEBUG [main] - Unable to locate ApplicationEventMulticaster with name &apos;applicationEventMulticaster&apos;: using default [org.springframework.context.event.SimpleApplicationEventMulticaster@3e81018b]
+ INFO [main] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8e2b07b: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,basicinfoMapper,bssSysAreaMapper,dictinfoMapper,dicttypeMapper,moduleMapper,operateMapper,roleMapper,rolemoduleMapper,roleoperateMapper,sysuserMapper,sysuserMapperCustom,usergysareaMapper,usergysMapper,userjdMapper,useryyMapper,gysypmlControlMapper,gysypmlMapper,gysypmlMapperCustom,ypxxMapper,ypxxMapperCustom,yybusinessMapper,yybusinessMapperCustom,yycgdMapper,yycgdMapperCustom,yycgdmxMapper,yycgdrkMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor]; root of factory hierarchy
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0&apos;
 DEBUG [main] - Creating shared instance of singleton bean &apos;dataSource&apos;
 DEBUG [main] - Creating instance of bean &apos;dataSource&apos;
@@ -1060,17 +1721,89 @@ DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframe
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Finished creating instance of bean &apos;sqlSessionFactory&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
-DEBUG [main] - Creating shared instance of singleton bean &apos;sysuserCustomMapper&apos;
-DEBUG [main] - Creating instance of bean &apos;sysuserCustomMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;basicinfoMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;basicinfoMapper&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
-DEBUG [main] - Eagerly caching bean &apos;sysuserCustomMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Eagerly caching bean &apos;basicinfoMapper&apos; to allow for resolving potential circular references
 DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
-DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;sysuserCustomMapper&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;basicinfoMapper&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
-DEBUG [main] - Finished creating instance of bean &apos;sysuserCustomMapper&apos;
+DEBUG [main] - Finished creating instance of bean &apos;basicinfoMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;bssSysAreaMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;bssSysAreaMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;bssSysAreaMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;bssSysAreaMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;bssSysAreaMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;dictinfoMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;dictinfoMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;dictinfoMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;dictinfoMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;dictinfoMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;dicttypeMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;dicttypeMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;dicttypeMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;dicttypeMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;dicttypeMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;moduleMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;moduleMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;moduleMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;moduleMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;moduleMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;operateMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;operateMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;operateMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;operateMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;operateMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;roleMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;roleMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;roleMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;roleMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;roleMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;rolemoduleMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;rolemoduleMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;rolemoduleMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;rolemoduleMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;rolemoduleMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;roleoperateMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;roleoperateMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;roleoperateMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;roleoperateMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;roleoperateMapper&apos;
 DEBUG [main] - Creating shared instance of singleton bean &apos;sysuserMapper&apos;
 DEBUG [main] - Creating instance of bean &apos;sysuserMapper&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
@@ -1080,26 +1813,171 @@ DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;sysuserMapp
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Finished creating instance of bean &apos;sysuserMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;sysuserMapperCustom&apos;
+DEBUG [main] - Creating instance of bean &apos;sysuserMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;sysuserMapperCustom&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;sysuserMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;sysuserMapperCustom&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;usergysareaMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;usergysareaMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;usergysareaMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;usergysareaMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;usergysareaMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;usergysMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;usergysMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;usergysMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;usergysMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;usergysMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;userjdMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;userjdMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;userjdMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;userjdMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;userjdMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;useryyMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;useryyMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;useryyMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;useryyMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;useryyMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;gysypmlControlMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;gysypmlControlMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;gysypmlControlMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;gysypmlControlMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;gysypmlControlMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;gysypmlMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;gysypmlMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;gysypmlMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;gysypmlMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;gysypmlMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;gysypmlMapperCustom&apos;
+DEBUG [main] - Creating instance of bean &apos;gysypmlMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;gysypmlMapperCustom&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;gysypmlMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;gysypmlMapperCustom&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;ypxxMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;ypxxMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;ypxxMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;ypxxMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;ypxxMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;ypxxMapperCustom&apos;
+DEBUG [main] - Creating instance of bean &apos;ypxxMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;ypxxMapperCustom&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;ypxxMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;ypxxMapperCustom&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;yybusinessMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;yybusinessMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;yybusinessMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;yybusinessMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;yybusinessMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;yybusinessMapperCustom&apos;
+DEBUG [main] - Creating instance of bean &apos;yybusinessMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;yybusinessMapperCustom&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;yybusinessMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;yybusinessMapperCustom&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;yycgdMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;yycgdMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;yycgdMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;yycgdMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;yycgdMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;yycgdMapperCustom&apos;
+DEBUG [main] - Creating instance of bean &apos;yycgdMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;yycgdMapperCustom&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;yycgdMapperCustom&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;yycgdMapperCustom&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;yycgdmxMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;yycgdmxMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;yycgdmxMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;yycgdmxMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;yycgdmxMapper&apos;
+DEBUG [main] - Creating shared instance of singleton bean &apos;yycgdrkMapper&apos;
+DEBUG [main] - Creating instance of bean &apos;yycgdrkMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Eagerly caching bean &apos;yycgdrkMapper&apos; to allow for resolving potential circular references
+DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
+DEBUG [main] - Invoking afterPropertiesSet() on bean with name &apos;yycgdrkMapper&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
+DEBUG [main] - Finished creating instance of bean &apos;yycgdrkMapper&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
-DEBUG [main] - Unable to locate LifecycleProcessor with name &apos;lifecycleProcessor&apos;: using default [org.springframework.context.support.DefaultLifecycleProcessor@2c704cf5]
+DEBUG [main] - Unable to locate LifecycleProcessor with name &apos;lifecycleProcessor&apos;: using default [org.springframework.context.support.DefaultLifecycleProcessor@5acad437]
 DEBUG [main] - Returning cached instance of singleton bean &apos;lifecycleProcessor&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;sqlSessionFactory&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;sysuserMapper&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Returning cached instance of singleton bean &apos;org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0&apos;
 DEBUG [main] - Creating a new SqlSession
-DEBUG [main] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@239cd5f5] was not registered for synchronization because synchronization is not active
+DEBUG [main] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a329572] was not registered for synchronization because synchronization is not active
 DEBUG [main] - Fetching JDBC Connection from DataSource
 DEBUG [main] - JDBC Connection [jdbc:oracle:thin:@127.0.0.1:1521:oracle, UserName=YYCG, Oracle JDBC driver] will not be managed by Spring
 DEBUG [main] - ooo Using Connection [jdbc:oracle:thin:@127.0.0.1:1521:oracle, UserName=YYCG, Oracle JDBC driver]
 DEBUG [main] - ==&gt;  Preparing: select ID, USERID, USERNAME, GROUPID, PWD, CONTACT, ADDR, EMAIL, USERSTATE, REMARK, CREATETIME, SEX, PHONE, MOVEPHONE, FAX, LASTUPDATE, VCHAR1, VCHAR2, VCHAR3, VCHAR4, VCHAR5, SYSID from SYSUSER where ID = ? 
 DEBUG [main] - ==&gt; Parameters: 18e6c4bc2f3244bfa146ec6e3f73919a(String)
 DEBUG [main] - &lt;==      Total: 0
-DEBUG [main] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@239cd5f5]
+DEBUG [main] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a329572]
 DEBUG [main] - Returning JDBC Connection to DataSource
 </system-out>
   </testcase>
+  <testcase time="0.728" classname="yycg.base.dao.mapper.SysuserMapperTest" name="testSetPwd"/>
 </testsuite>

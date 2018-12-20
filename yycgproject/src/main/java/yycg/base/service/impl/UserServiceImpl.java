@@ -151,8 +151,7 @@ public class UserServiceImpl implements UserService {
 			// ResultUtil.createFail("resources.messages", 213, null);
 
 			// throw new ExceptionResultInfo(resultInfo);
-			ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE, 213,
-					null));
+			ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE, 213, null));
 		}
 
 		// 根据用户类型，输入单位名称必须存在对应的单位表
@@ -204,8 +203,7 @@ public class UserServiceImpl implements UserService {
 		Sysuser sysuser = sysuserMapper.selectByPrimaryKey(id);
 		if (sysuser == null) {
 			// 用户不存在
-			ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE, 212,
-					null));
+			ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE, 212,	null));
 		}
 		// 执行删除
 		sysuserMapper.deleteByPrimaryKey(id);
@@ -217,7 +215,7 @@ public class UserServiceImpl implements UserService {
 			throws Exception {
 		// 非空校验。。。
 
-		// 修改用户账号不允许暂用别人的账号
+		// 修改用户账号不允许占用别人的账号
 		// 如果判断账号修改了
 		// 页面提交的账号可能是用户修改的账号
 		String userid_page = sysuserCustom.getUserid();
@@ -238,8 +236,7 @@ public class UserServiceImpl implements UserService {
 			Sysuser sysuser_1 = this.findSysuserByUserid(userid_page);
 			if (sysuser_1 != null) {
 				// 说明暂用别人的账号
-				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,
-						213, null));
+				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,213, null));
 			}
 		}
 
@@ -253,8 +250,7 @@ public class UserServiceImpl implements UserService {
 			Userjd userjd = this.findUserjdByMc(sysmc);
 			if (userjd == null) {
 				// 抛出异常，可预知异常
-				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,
-						217, null));
+				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,217, null));
 			}
 			sysid = userjd.getId();
 		} else if (groupid.equals("3")) {
@@ -263,8 +259,7 @@ public class UserServiceImpl implements UserService {
 			Useryy useryy = this.findUseryyByMc(sysmc);
 			if (useryy == null) {
 				// 抛出异常，可预知异常
-				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,
-						217, null));
+				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,217, null));
 			}
 			sysid = useryy.getId();
 		} else if (groupid.equals("4")) {
@@ -273,8 +268,7 @@ public class UserServiceImpl implements UserService {
 			Usergys usergys = this.findUsergysByMc(sysmc);
 			if (usergys == null) {
 				// 抛出异常，可预知异常
-				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,
-						217, null));
+				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,217, null));
 			}
 			sysid = usergys.getId();
 		}
@@ -323,8 +317,7 @@ public class UserServiceImpl implements UserService {
 			Userjd userjd = userjdMapper.selectByPrimaryKey(sysid);
 			if (userjd == null) {
 				// 抛出异常，可预知异常
-				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,
-						217, null));
+				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,217, null));
 			}
 			sysmc = userjd.getMc();
 		} else if (groupid.equals("3")) {
@@ -333,8 +326,7 @@ public class UserServiceImpl implements UserService {
 			Useryy useryy = useryyMapper.selectByPrimaryKey(sysid);
 			if (useryy == null) {
 				// 抛出异常，可预知异常
-				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,
-						217, null));
+				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,217, null));
 			}
 			sysmc = useryy.getMc();
 		} else if (groupid.equals("4")) {
@@ -343,8 +335,7 @@ public class UserServiceImpl implements UserService {
 			Usergys usergys = usergysMapper.selectByPrimaryKey(sysid);
 			if (usergys == null) {
 				// 抛出异常，可预知异常
-				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,
-						217, null));
+				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,217, null));
 			}
 			sysmc = usergys.getMc();
 		}
@@ -393,8 +384,7 @@ public class UserServiceImpl implements UserService {
 			Userjd userjd = userjdMapper.selectByPrimaryKey(sysid);
 			if (userjd == null) {
 				// 抛出异常，可预知异常
-				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,
-						217, null));
+				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,217, null));
 			}
 			sysmc = userjd.getMc();
 		} else if (groupid.equals("3")) {
@@ -403,8 +393,7 @@ public class UserServiceImpl implements UserService {
 			Useryy useryy = useryyMapper.selectByPrimaryKey(sysid);
 			if (useryy == null) {
 				// 抛出异常，可预知异常
-				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,
-						217, null));
+				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,217, null));
 			}
 			sysmc = useryy.getMc();
 		} else if (groupid.equals("4")) {
@@ -413,8 +402,7 @@ public class UserServiceImpl implements UserService {
 			Usergys usergys = usergysMapper.selectByPrimaryKey(sysid);
 			if (usergys == null) {
 				// 抛出异常，可预知异常
-				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,
-						217, null));
+				ResultUtil.throwExcepion(ResultUtil.createFail(Config.MESSAGE,217, null));
 			}
 			sysmc = usergys.getMc();
 		}

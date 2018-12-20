@@ -3,6 +3,7 @@ package yycg.business.service.impl;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 
 import yycg.base.dao.mapper.UsergysMapper;
 import yycg.base.dao.mapper.UserjdMapper;

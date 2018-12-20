@@ -6,8 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <!-- 引用jquery easy ui的js库及css -->
-<LINK rel="stylesheet" type="text/css"
-	href="${baseurl}js/easyui/styles/default.css">
+<LINK rel="stylesheet" type="text/css" href="${baseurl}js/easyui/styles/default.css">
 <%@ include file="/WEB-INF/jsp/base/common_css.jsp"%>
 <%@ include file="/WEB-INF/jsp/base/common_js.jsp"%>
 <title>用户管理</title>

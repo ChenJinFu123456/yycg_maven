@@ -62,8 +62,7 @@
 
 	//退出系统方法
 	function logout() {
-		_confirm('您确定要退出本系统吗?',null,
-				function(){
+		_confirm('您确定要退出本系统吗?',null,	function(){
 					location.href = '${baseurl}logout.action';
 				}
 		)
@@ -85,8 +84,9 @@
 
 <BODY style="overflow-y: hidden;" class="easyui-layout" scroll="no" >
 	<DIV
-		style='background: url("images/layout-browser-hd-bg.gif") repeat-x center 50% rgb(127, 153, 190); height: 30px; color: rgb(255, 255, 255); line-height: 20px; overflow: hidden; font-family: Verdana, 微软雅黑, 黑体;'
-		border="false" split="true" region="north">
+		style='background: url("images/layout-browser-hd-bg.gif") repeat-x center 50% rgb(127, 153, 190); 
+		height: 30px; color: rgb(255, 255, 255); line-height: 20px; overflow: hidden; 
+		font-family: Verdana, 微软雅黑, 黑体;' border="false" split="true" region="north">
 		<SPAN style="padding-right: 20px; float: right;" class="head">
 			欢迎当前用户：${activeUser.username}&nbsp;&nbsp;
 			<A href=javascript:showhelp()>使用帮助</A>
@@ -95,13 +95,15 @@
 			&nbsp;&nbsp;
 			<A id="loginOut" href=javascript:logout()>退出系统</A>
 
-		</SPAN> <SPAN style="padding-left: 10px; font-size: 16px;"><IMG
-			align="absmiddle" src="images/blocks.gif" width="20" height="20">
-			医药集中采购系统</SPAN> <SPAN style="padding-left: 15px;" id="News"></SPAN>
+		</SPAN> 
+		<SPAN style="padding-left: 10px; font-size: 16px;">
+			<IMG align="absmiddle" src="images/blocks.gif" width="20" height="20">
+			医药集中采购系统
+		</SPAN> 
+		<SPAN style="padding-left: 15px;" id="News"></SPAN>
 	</DIV>
 
-	<DIV style="background: rgb(210, 224, 242); height: 30px;" split="false"
-		region="south">
+	<DIV style="background: rgb(210, 224, 242); height: 30px;" split="false" region="south">
 
 		<DIV class="footer">
 			系统版本号：${version_number}&nbsp;&nbsp;&nbsp;发布日期：${version_date}

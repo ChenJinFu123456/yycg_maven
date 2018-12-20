@@ -1,17 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: yycg.base.dao.mapper.SysuserMapperTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 3.229 sec <<< FAILURE!
-testInsert(yycg.base.dao.mapper.SysuserMapperTest)  Time elapsed: 0.776 sec  <<< ERROR!
+Tests run: 7, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 10.517 sec <<< FAILURE!
+testInsert(yycg.base.dao.mapper.SysuserMapperTest)  Time elapsed: 1.577 sec  <<< ERROR!
 org.springframework.dao.DataIntegrityViolationException: 
-### Error updating database.  Cause: java.sql.SQLException: ORA-01400: ÎÞ·¨½« NULL ²åÈë ("YYCG"."SYSUSER"."USERID")
+### Error updating database.  Cause: java.sql.SQLException: ORA-01400: æ— æ³•å°† NULL æ’å…¥ ("YYCG"."SYSUSER"."USERID")
 
 ### The error may involve yycg.base.dao.mapper.SysuserMapper.insert-Inline
 ### The error occurred while setting parameters
 ### SQL: insert into SYSUSER (ID, USERID, USERNAME,        GROUPID, PWD, CONTACT,        ADDR, EMAIL, USERSTATE,        REMARK, CREATETIME, SEX,        PHONE, MOVEPHONE, FAX,        LASTUPDATE, VCHAR1, VCHAR2,        VCHAR3, VCHAR4, VCHAR5,        SYSID)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?, ?, ?,        ?)
-### Cause: java.sql.SQLException: ORA-01400: ÎÞ·¨½« NULL ²åÈë ("YYCG"."SYSUSER"."USERID")
-; SQL []; ORA-01400: ÎÞ·¨½« NULL ²åÈë ("YYCG"."SYSUSER"."USERID")
-; nested exception is java.sql.SQLException: ORA-01400: ÎÞ·¨½« NULL ²åÈë ("YYCG"."SYSUSER"."USERID")
+### Cause: java.sql.SQLException: ORA-01400: æ— æ³•å°† NULL æ’å…¥ ("YYCG"."SYSUSER"."USERID")
+; SQL []; ORA-01400: æ— æ³•å°† NULL æ’å…¥ ("YYCG"."SYSUSER"."USERID")
+; nested exception is java.sql.SQLException: ORA-01400: æ— æ³•å°† NULL æ’å…¥ ("YYCG"."SYSUSER"."USERID")
 
 	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:245)
 	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
@@ -22,8 +22,8 @@ org.springframework.dao.DataIntegrityViolationException:
 	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:46)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:43)
 	at com.sun.proxy.$Proxy6.insert(Unknown Source)
-	at yycg.base.dao.mapper.SysuserMapperTest.testInsert(SysuserMapperTest.java:44)
-Caused by: java.sql.SQLException: ORA-01400: ÎÞ·¨½« NULL ²åÈë ("YYCG"."SYSUSER"."USERID")
+	at yycg.base.dao.mapper.SysuserMapperTest.testInsert(SysuserMapperTest.java:45)
+Caused by: java.sql.SQLException: ORA-01400: æ— æ³•å°† NULL æ’å…¥ ("YYCG"."SYSUSER"."USERID")
 
 	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
 	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
@@ -55,13 +55,13 @@ Caused by: java.sql.SQLException: ORA-01400: ÎÞ·¨½« NULL ²åÈë ("YYCG"."SYSUSER".
 	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
 	... 34 more
 
-testSelectByExample(yycg.base.dao.mapper.SysuserMapperTest)  Time elapsed: 0.331 sec  <<< ERROR!
+testSelectByExample(yycg.base.dao.mapper.SysuserMapperTest)  Time elapsed: 1.55 sec  <<< ERROR!
 java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
 	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
 	at java.util.ArrayList.get(ArrayList.java:322)
-	at yycg.base.dao.mapper.SysuserMapperTest.testSelectByExample(SysuserMapperTest.java:57)
+	at yycg.base.dao.mapper.SysuserMapperTest.testSelectByExample(SysuserMapperTest.java:58)
 
-testUpdateByPrimaryKey(yycg.base.dao.mapper.SysuserMapperTest)  Time elapsed: 0.308 sec  <<< ERROR!
+testUpdateByPrimaryKey(yycg.base.dao.mapper.SysuserMapperTest)  Time elapsed: 1.186 sec  <<< ERROR!
 java.lang.NullPointerException
-	at yycg.base.dao.mapper.SysuserMapperTest.testUpdateByPrimaryKey(SysuserMapperTest.java:82)
+	at yycg.base.dao.mapper.SysuserMapperTest.testUpdateByPrimaryKey(SysuserMapperTest.java:83)
 

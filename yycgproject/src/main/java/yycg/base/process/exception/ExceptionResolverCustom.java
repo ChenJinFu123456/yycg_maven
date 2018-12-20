@@ -59,12 +59,10 @@ public class ExceptionResolverCustom implements HandlerExceptionResolver {
 		// 判断方法是否返回json
 		// 只要方法上有responsebody注解表示返回json
 		// 查询method是否有responsebody注解
-		ResponseBody responseBody = AnnotationUtils.findAnnotation(method,
-				ResponseBody.class);
+		ResponseBody responseBody = AnnotationUtils.findAnnotation(method,ResponseBody.class);
 		if (responseBody != null) {
 			// 将异常信息转json输出
-			return this.resolveJsonException(request, response, handlerMethod,
-					ex);
+			return this.resolveJsonException(request, response, handlerMethod,ex);
 
 		}
 		// 这里说明action返回的是jsp页面
@@ -82,13 +80,11 @@ public class ExceptionResolverCustom implements HandlerExceptionResolver {
 		}
 		
 		// 将异常信息在异常页面显示
-		request.setAttribute("exceptionResultInfo",
-				exceptionResultInfo.getResultInfo());
+		request.setAttribute("exceptionResultInfo",	exceptionResultInfo.getResultInfo());
 
 		// 转向错误页面
 		ModelAndView modelAndView = new ModelAndView();
-		modelAndView.addObject("exceptionResultInfo",
-				exceptionResultInfo.getResultInfo());
+		modelAndView.addObject("exceptionResultInfo",exceptionResultInfo.getResultInfo());
 		modelAndView.setViewName(view);// 逻辑视图名
 		return modelAndView;
 	}

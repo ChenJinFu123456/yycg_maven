@@ -46,9 +46,11 @@ public class LoginAction {
 
 	// 用户登陆提交
 	@RequestMapping("/loginsubmit")
-	public @ResponseBody
-	SubmitResultInfo loginsubmit(HttpSession session, String userid, String pwd,String validateCode)
-			throws Exception {
+	public @ResponseBody SubmitResultInfo loginsubmit(
+			HttpSession session, 
+			String userid, 
+			String pwd,
+			String validateCode) throws Exception {
 		
 		//校验验证码
 		String validateCode_session = (String) session.getAttribute("validateCode");
